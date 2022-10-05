@@ -21,7 +21,8 @@ Glossary:
 >An open source program for tracking changes in text files. 
 
 **Github**
->
+>An Internet hosting service for software development and version control using Git. 
+
 **Merge**
 >Taking the changes from one branch (in the same repository or from a fork), and applies them into another.
 
