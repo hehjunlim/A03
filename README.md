@@ -77,3 +77,8 @@ Glossary:
 
 
 Works Cited: 
+“About Branches.” GitHub Docs, docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-branches. 
+Aklson, Alex. “How to Properly Setup Your Github Repository - Mac Version.” Medium, Medium, 19 July 2020, medium.com/@aklson_DS/how-to-properly-setup-your-github-repository-mac-version-3a8047b899e5. 
+“Cloning a Repository.” GitHub Docs, docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository. 
+“GitHub Glossary.” GitHub Docs, docs.github.com/en/get-started/quickstart/github-glossary. 
+“Where the World Builds Software.” GitHub, github.com/. 
