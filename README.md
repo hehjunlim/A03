@@ -1,7 +1,7 @@
 # A03
 Tutorial on how to use Github and Definitions
 
-How to Set Up Git, Webstorm, and Github on a Mac-
+How to Set Up Git, Webstorm, and Github on a Mac:
 1. Install Webstorm from this [link](https://www.jetbrains.com/community/education/#students)
 2. Create a Github account on this [website](https://github.com/)
 3. Download Git from this link in Terminal utilizing [Homebrew](https://git-scm.com/download/mac)
@@ -13,7 +13,7 @@ How to Set Up Git, Webstorm, and Github on a Mac-
 9. Press Enter and Enter again to confirm the empty passphrase.
 10. Run the following in Terminal, "cd ~/.ssh" and then "ls". 
 11. Find “id_rsa” and “id_rsa.pub” in the list of contents. “id_rsa” is the private version of your key and “id_rsa.pub” is the public version of your key. 
-12. run the following in Terminal: " eval "$(ssh-agent -s)" "
+12. Run the following in Terminal: " eval "$(ssh-agent -s)" "
 13. Check if .ssh directory contains a file named config. If it does, make the following its contents:
 Host *
  AddKeysToAgent yes
@@ -24,7 +24,7 @@ If your .ssh subdirectory does not contain a file named config, then create one 
 15. Run the following in Terminal to copy the public version of your key to the clipboard: pbcopy < ~/.ssh/id_rsa.pub
 16. Go to Github account, and click your profile pic in the top right corner of your Github account and select “Settings” from the drop-down menu. 
 17  Under Personal Settings, select ' SSH and GPG Keys ' . 
-18. click the button "new SSH key".
+18. Click the button "new SSH key".
 19. For the title, give the key a name that describes the machine associated with it. (Example, "Personal Computer")
 20. In the Key field, and press Command-v to paste the key from the clipboard buffer. The pasted key should have your email address at the end. 
 21. Create a new Respitory by clicking "Create a New Repository" on the homepage of account. 
@@ -40,7 +40,7 @@ If your .ssh subdirectory does not contain a file named config, then create one 
 Glossary:
 
 **Branch**
->A tool that allows you to allow you to develop features, fix bugs, or safely experiment with new ideas in a contained area of your repository.
+>A tool that allows you to develop features, fix bugs, or safely experiment with new ideas in a contained area of your repository.
 
 **Clone**
 >Copying the respitory from Github.com to your local machine. 
@@ -58,7 +58,7 @@ Glossary:
 >An Internet hosting service for software development and version control using Git. 
 
 **Merge**
->Taking the changes from one branch (in the same repository or from a fork), and applies them into another.
+>Taking the changes from one branch (in the same repository or from a fork), and applying them into another.
 
 **Merge Conflict**
 >A difference that occurs between merged branches. They happen when people make different changes to the same line of the same file, or when one person edits a file and another person deletes the same file. 
